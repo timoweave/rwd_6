@@ -1,0 +1,205 @@
+@media only screen {
+    /* Styles here */
+
+    #top h1 {
+        border-bottom: 0.075em solid lightblue;
+    }
+    #top {
+        border-bottom: 0.2em solid lightblue;
+    }
+    
+    .bussiness-cards {
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card h2 {
+        background-color: lightblue;
+        text-align: left;
+    }
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightpink;
+    }
+    #top {
+        border-bottom: 0.2em solid lightpink;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card h2 {
+        background-color: lightpink;
+        
+    }
+}
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgrey;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgrey;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightgreen;
+        color:white;
+        text-align: center;
+    }
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgreen;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgreen;
+    }
+    
+    .bussiness-cards {
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightblue;
+        color: lightgrey;
+    }
+}
+/* Large screens */
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgrey;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgrey;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightblue;
+    }
+}
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgrey;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgrey;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightblue;
+    }
+}
+/* XLarge screens */
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgrey;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgrey;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightblue;
+    }
+}
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgrey;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgrey;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightblue;
+    }
+}
+/* XXLarge screens */
+/* min-width 1921px, xlarge screens */
+@media only screen and (min-width: 120.063em) {
+    /* Styles here */
+    #top h1 {
+        border-bottom: 0.075em solid lightgrey;
+    }
+    #top {
+        border-bottom: 0.2em solid lightgrey;
+    }
+    
+    .bussiness-cards {
+        box-shadow: 2em 2em 2em green;
+    }
+    
+    .bussiness-card {
+        text-align: center;
+    }
+    
+    .bussiness-card > h2 {
+        background-color: lightblue;
+    }
+}
