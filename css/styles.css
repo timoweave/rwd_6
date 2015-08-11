@@ -1,9 +1,14 @@
+
 @media only screen {
     /* Styles here */
 
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightblue;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
+    
     #top {
         border-bottom: 0.2em solid lightblue;
     }
@@ -23,8 +28,11 @@
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightpink;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightpink;
@@ -47,8 +55,11 @@
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightgrey;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgrey;
@@ -71,8 +82,11 @@
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightgreen;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgreen;
@@ -94,8 +108,11 @@
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
     /* Styles here */
-    #top h1 {
+    #top h2{
         border-bottom: 0.075em solid lightgrey;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgrey;
@@ -116,8 +133,11 @@
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightgrey;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgrey;
@@ -139,8 +159,11 @@
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightgrey;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgrey;
@@ -161,8 +184,11 @@
 /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightgrey;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgrey;
@@ -184,8 +210,11 @@
 /* min-width 1921px, xlarge screens */
 @media only screen and (min-width: 120.063em) {
     /* Styles here */
-    #top h1 {
+    #top h2 {
         border-bottom: 0.075em solid lightgrey;
+        color: lightgrey;
+        font-size: 1.5em;
+        text-align: right;
     }
     #top {
         border-bottom: 0.2em solid lightgrey;
